@@ -1,10 +1,10 @@
 # Weather-Journal App Project
 
-## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+## Introduction
+The project about a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. The tool can give pertinent information about the article, like whether the content is subjective (opinion) or objective (fact-based) and whether it is positive, neutral, or negative in tone.
 
-## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
+## Step To Run The Project:
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+- npm install
+- npm run build-prod to generate a dist folder for prod
+- npm run start to run the Express server on port 8080
